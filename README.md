@@ -11,3 +11,31 @@ Homebridge Plugin for integrating Gira HomeServer with HomeKit.
 
 ```bash
 npm install -g homebridge
+
+Install the Gira HomeServer Plugin:
+````
+npm install -g gira-homeserver-homebridge
+````
+## Configuration
+Add the platform to your config.json file:
+
+````
+"platforms": [
+  {
+    "platform": "GiraHomeServer",
+    "name": "Gira HomeServer",
+    "lights": [
+      {"name": "Light 1", "id": "1_1_13"},
+      {"name": "Light 2", "id": "1_1_14"},
+      {"name": "Light 3", "id": "1_1_15"}
+    ],
+    "serverIP": "ip",
+    "username": "bn",
+    "password": "pw"
+  }
+]
+````
+Adjust the configuration according to your Gira HomeServer installation.
+
+License
+This project is licensed under the MIT License.
