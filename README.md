@@ -1,6 +1,7 @@
 # Homebridge Gira HomeServer Plugin
 
-![Homebridge Logo](https://github.com/Hennycraft52/gira-homeserver-homebridge/docs/homebridge.jpg width="150")
+<img src="https://github.com/homebridge/branding/raw/latest/logos/homebridge-wordmark-logo-vertical.png" width="150">
+
 
 Homebridge Plugin for integrating Gira HomeServer with HomeKit.
 
