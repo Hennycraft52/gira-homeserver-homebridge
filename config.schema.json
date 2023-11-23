@@ -1,0 +1,45 @@
+{
+  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginType": "platform",
+  "properties": {
+    "platform": {
+      "type": "string",
+      "enum": ["GiraHomeServer"]
+    },
+    "name": {
+      "type": "string",
+      "description": "Platform Name"
+    },
+    "lights": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Light Name"
+          },
+          "id": {
+            "type": "string",
+            "description": "Light ID"
+          }
+        },
+        "required": ["name", "id"]
+      },
+      "description": "List of lights to control"
+    },
+    "serverIP": {
+      "type": "string",
+      "description": "IP address of Gira HomeServer"
+    },
+    "username": {
+      "type": "string",
+      "description": "Username for Gira HomeServer"
+    },
+    "password": {
+      "type": "string",
+      "description": "Password for Gira HomeServer"
+    }
+  },
+  "required": ["platform", "name", "lights", "serverIP", "username", "password"]
+}
