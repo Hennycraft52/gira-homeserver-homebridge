@@ -9,8 +9,9 @@ Homebridge Plugin for integrating Gira HomeServer with HomeKit.
 
 1. Install Homebridge if you haven't already:
 
-```bash
+````ash
 npm install -g homebridge
+````
 
 Install the Gira HomeServer Plugin:
 ````
