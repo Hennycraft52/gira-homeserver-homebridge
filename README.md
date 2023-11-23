@@ -1,12 +1,12 @@
 # Homebridge Gira HomeServer Plugin
 
-![Homebridge Logo](https://github.com/Hennycraft52/gira-homeserver-homebridge/raw/main/homebridge-logo.png)
+![Homebridge Logo](https://github.com/Hennycraft52/gira-homeserver-homebridge/docs/homebridge.jpg width="150")
 
-Homebridge Plugin für die Integration von Gira HomeServer in HomeKit.
+Homebridge Plugin for integrating Gira HomeServer with HomeKit.
 
 ## Installation
 
-1. Installieren Sie Homebridge, falls Sie es noch nicht installiert haben:
+1. Install Homebridge if you haven't already:
 
 ```bash
 npm install -g homebridge
