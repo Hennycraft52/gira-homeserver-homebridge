@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-gira-homeserver",
+  "name": "gira-homeserver-homebridge",
   "version": "1.0.0",
   "description": "Homebridge plugin for Gira HomeServer",
   "main": "index.js",
