@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["homebridge-plugin", "homekit", "gira", "homeserver"],
+  "keywords": [ "homebridge", "homebridge-plugin", "homekit", "gira", "homeserver"],
   "author": "Ihr Name",
   "license": "ISC",
   "dependencies": {
