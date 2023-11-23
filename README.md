@@ -15,7 +15,7 @@ npm install -g homebridge
 
 Install the Gira HomeServer Plugin:
 ````
-npm install -g gira-homeserver-homebridge
+npm install -g homebridge-gira-homeserver
 ````
 ## Configuration
 Add the platform to your config.json file:
